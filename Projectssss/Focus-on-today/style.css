@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(72, 163, 0, 0.07);
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    padding: 0 16px 32px;
+}
+
+.heading {
+    text-align: center;
+    color: #48A300;
+    font-size: 4rem;
+}
+
+.heading span {
+    color: #61481C;
+}
+
+.app-container {
+    background-color: #FBFBFB;
+    width: 660px;
+    height: 810px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-inline: auto;
+    padding: 32px 42px;
+    position: relative;
+}
+
+.app-container h2 {
+    font-weight: 700px;
+    font-style: bold;
+    font-size: 32px;
+}
+
+.app-container img {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.progress-label {
+    margin-bottom: 18px;
+    color: #858585;
+    font-size: 18px;
+    margin-top: 26px;
+}
+
+.progress-bar {
+    height: 30px;
+    background-color: rgba(72, 163, 0, 0.1);
+    border-radius: 15px;
+}
+
+#progressFill {
+    height: 100%;
+    width: 30%;
+    background-color: #48A300;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.error-label {
+    color: #ff5151;
+    font-size: 14px;
+    margin-block: 20px;  /*gives top and bottom margin */
+}
+
+.goal-container{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 17px;
+    height: 82px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0 22px; 
+    margin-bottom: 46px;
+
+}
+.custom-checkbox{
+    height: 24px;
+    width: 24px;
+    border: 2px solid rgba(97,72,28,0.3);
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.goal-input{
+    margin-left: 22px;
+    font-family: inherit;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.quote{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.made-by{
+    position: absolute;
+    margin-top: 64px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+@media(max-width:700px) {
+    .heading {
+        font-size: 32px;
+    }
+
+    .app-container {
+        padding: 16px 32px;
+    }
+}
